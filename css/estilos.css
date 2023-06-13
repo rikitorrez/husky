@@ -1,0 +1,241 @@
+body{font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+}
+.holder {
+    width: 960px;
+    margin: 0 auto;
+    margin-left: 1;
+}
+/* estilo header */
+header {
+    background-color: rgb(248, 248, 248);
+    
+}
+
+
+header h1{
+    color: rgba(95, 98, 11, 0.865);
+    margin: 0;
+    padding: 30px 350px;
+    font-size: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.container {
+    align-items: center;
+} 
+
+/* estilo barra */ */
+
+nav{
+    background-color: #dcdf31a5;
+    margin-bottom: 2em;
+    text-align: center
+    ;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    display: inline-block;
+    width: 19.7%;
+}
+
+nav ul li a {
+    color: rgba(124, 95, 8, 0.828);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    transition: all 0.2s ease;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a.activo{ 
+    background-color: rgba(244, 131, 18, 0.457);
+}
+/* estilos footer */
+footer {
+    background-color: #d87d7d;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+/* estilo main */
+h2 {
+    color: rgb(126, 117, 16);
+    font-weight: 400;
+
+}
+
+/* principio de inicio */
+.holder{
+    padding: 3em;
+    background-color: rgb(228, 233, 243);
+}
+.columnas {
+    padding: 3em;
+    background-color: rgb(42, 193, 201);
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between
+}
+.imagen {
+    width: 350px;
+}
+h3 {
+    color: rgb(126, 117, 16);
+    font-style: italic;
+    font-size: 1.2em;
+}
+div img {
+    float: right;
+    padding: 1.5em;
+}
+/* fin de inicio */
+
+
+/* inicio de historia */ 
+
+.historias {
+    border-radius: 10px;
+    padding: 20x 0;
+    display: block;
+    align-items: center;
+
+    
+}
+
+.historias, .historia h4 { 
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+    
+    padding-bottom: 10px;
+
+}
+.historias, .historia p {
+    font-size: 16px;
+    padding: 10px;
+    
+    
+}
+
+.historias img {
+    border-radius: 12px;
+    display: flex;
+    float: left;
+    max-width: 250px;
+}
+
+.historia img {
+    float: right;
+}
+
+h4 { border-bottom: solid 1px rgb(202, 30, 30);
+}
+
+
+
+/* fin de historia */
+
+/* inicio caracteristicas */
+.caracteristicas img {
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+}
+.caracteristicas { 
+    text-align: initial;
+    display: flex;
+}
+.caracteristicas ul {
+    margin-left: 100px;
+    margin: 80px;
+    list-style: none;
+}
+h5 { color: black;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding: 16px;
+    padding-left: 2px;
+    border-bottom: 1px solid;
+}
+.cabeza {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* fin caracteristicas */
+/* inicio fotos */
+
+
+.colores p {
+    font-size: 14px;
+}
+.husky {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 15%;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.huskys {
+    display: flex;
+    justify-content: center;
+
+}
+.husky img {
+    border-radius: 30%;
+    max-width: 220px;
+    padding-left: 6em;
+    position: relative;;
+
+}
+
+.husky p {
+    color: #d87d7d;
+    font-size: 16px;
+    padding: 8px;
+    text-align: initial;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.galeria img {
+    width: 350px;
+    font-size: medium;
+    border: 0.4px solid #ddd;
+    padding 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    
+}
+
+/* fin de fotos */
