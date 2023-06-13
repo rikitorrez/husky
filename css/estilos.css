@@ -332,16 +332,17 @@ h5 { color: black;
         div.domesticos h3 {
             color: rgb(240, 105, 20);
             text-align: left;
-            padding left: 3em;
+            padding left: 3em
         }
     
 /* fin de actualidad */
 
 
 /* inicio contacto */
+
 .contacto {
-    display: flex;
-    gap; 24px
+        display: flex;
+        gap; 24px
 }
 
 contacto.div {
@@ -395,13 +396,14 @@ contacto.div {
 
 /* fin contacto */
 
-@media (min-width;720px){
-    header {
+
+{
+    header{
         position: fixed;
         width: 100% }
         header.container {
-            flex-direction: row;
-            justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
         } 
 
 header nav{
