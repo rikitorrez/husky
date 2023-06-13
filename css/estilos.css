@@ -10,19 +10,40 @@ body{font-family: 'Quicksand', sans-serif;
 }
 /* estilo header */
 header {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(245, 245, 245);
     
 }
 
 
 header h1{
     color: rgba(95, 98, 11, 0.865);
-    margin: 0;
-    padding: 30px 350px;
-    font-size: 1.6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin: 1;
+    padding: 25px 30px;
+    font-weight: bold;;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+
+button {
+    font-size: 1.5;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(221, 140, 124, 0.867);
+    box-shadow: 2px 2px 10px #d87d;
+    color: rgba(95, 98, 11, 0.865);
+    background-color: #e9dcdc;
+
+}
+button:hover {
+    background-color: #d87d7d;
 }
 .container {
     align-items: center;
@@ -91,23 +112,35 @@ h2 {
 }
 .columnas {
     padding: 3em;
-    background-color: rgb(42, 193, 201);
+    background-color: rgb(227, 234, 234);
 }
 .contenedor {
     display: flex;
-    justify-content: space-between
+    justify-content: center;
 }
 .imagen {
-    width: 350px;
+    width: 400px;
+    padding-left: 3em;
+    
+}
+.imagenojos img {
+    padding-left: 5em ;
 }
 h3 {
     color: rgb(126, 117, 16);
     font-style: italic;
     font-size: 1.2em;
 }
-div img {
-    float: right;
-    padding: 1.5em;
+
+.huskysiberiano {
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 2em;
+}
+.somos p {
+    font-size: 18px;
+    color: #333;
+    padding: 2em;
 }
 /* fin de inicio */
 
@@ -143,6 +176,7 @@ div img {
     display: flex;
     float: left;
     max-width: 250px;
+    padding: 15px 5px;
 }
 
 .historia img {
@@ -208,9 +242,10 @@ h5 { color: black;
 }
 .husky img {
     border-radius: 30%;
-    max-width: 220px;
-    padding-left: 6em;
-    position: relative;;
+    max-width: 110px;
+    padding-left: 0.1em;
+    position: relative;
+    float: left;
 
 }
 
@@ -231,11 +266,147 @@ h5 { color: black;
     width: 350px;
     font-size: medium;
     border: 0.4px solid #ddd;
-    padding 0.3em;
     box-sizing: border-box;
     margin-bottom: 20px;
     margin-right: 2%;
-    
+    padding: 0.6em;
 }
 
 /* fin de fotos */
+/* inicio de actualidad */
+.actualidad {
+    display: block; }
+
+    .actualidad p {
+        font-size: 18px;
+        padding: 1em;
+        text-align: initial;
+        border: 1px solid;
+    }
+    .hoy p {
+        font-size: 18px;
+        padding-bottom: 1em;
+    }
+    .actualidad img {
+        max-width: 400px;
+        padding: 2em;
+        box-sizing: border-box;
+    
+    }
+    .domestico article {
+        padding: 0.3em;
+        font-size: 16px;
+        }
+        .domestico {
+            display: flex;
+            flex-direction: column;
+            padding-top: 2em;
+        
+        }
+        .domestico p {
+            font-size: 17px;
+            padding: 1em;
+            text-align: initial;
+            
+        }
+        .domestico img {
+            box-sizing: border-box;
+        }
+        .domesticos {
+            display: block;
+            align-items: flex-start;
+            
+        }
+        .domesticos p {
+            font-size: 16px;
+            padding: 1em;
+            border: 1px solid;
+        }
+        
+        div.domesticos img {
+            max-width: 40%;
+            float: flex;
+            padding: 2.8em;
+            float:right ;
+        }
+        div.domesticos h3 {
+            color: rgb(240, 105, 20);
+            text-align: left;
+            padding left: 3em;
+        }
+    
+/* fin de actualidad */
+
+
+/* inicio contacto */
+.contacto {
+    display: flex;
+    gap; 24px
+}
+
+contacto.div {
+    width: 100%;
+}
+.datos p {
+    font-size: 14px;
+}
+.datos ul li {
+    font-size: 12px;
+}
+.formulario p {
+    display: flex;
+}
+.formulario p label {
+    min-width: 80px;
+    background-color: #d87d7d;
+    display: flex;
+        align-items: center;
+}
+.formulario p input,
+.formulario p textarea {
+    width: 50%;
+}
+.formulario p input,
+.formulario p textarea {
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 10px;
+    padding: 5px 8px;
+}
+.formulario input[type="submit"] {
+    background: #d87d7d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: 50%;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover {
+    background-color: #c54141;
+}
+
+
+
+
+
+/* fin contacto */
+
+@media (min-width;720px){
+    header {
+        position: fixed;
+        width: 100% }
+        header.container {
+            flex-direction: row;
+            justify-content: space-between;
+        } 
+
+header nav{
+    flex-direction: row;
+    padding-bottom: 0%;
+    padding-right: 20px;
+}
+}
