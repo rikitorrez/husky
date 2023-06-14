@@ -2,6 +2,7 @@ body{font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     line-height: 25px;
     margin: 0;
+    box-sizing: border-box;
 }
 .holder {
     width: 960px;
@@ -47,6 +48,8 @@ button:hover {
 }
 .container {
     align-items: center;
+    max-width: 1400px;
+    margin: auto;
 } 
 
 /* estilo barra */ */
@@ -397,18 +400,13 @@ contacto.div {
 /* fin contacto */
 
 
-{
-    header{
-        position: fixed;
-        width: 100% }
-        header.container {
-        flex-direction: row;
-        justify-content: space-between;
-        } 
 
-header nav{
-    flex-direction: row;
-    padding-bottom: 0%;
-    padding-right: 20px;
+/*  */
+/* media querys */
+@media screen and (min-width: 600px){
+    header: .container;{
+        flex-direction: row;
+    }
 }
-}
+
+
